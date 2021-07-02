@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="estilo.css">
+<style>
+    body{
+        background-color: palegoldenrod;
+    }
+</style>
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html">HELTH TRACK</a>
+        <a href="perfil.html">Perfil</a>
+        <a href="alimento.html">Alimentação</a>
+        <a href="exercicio.html">Exercicios</a>
+        <a href="agua.html">Água</a>
+        <a href="breve.html">Social</a>
+        <a href="breve.html">Profissionais</a>
+        <a href="breve.html">Premium</a>
+        <a href="breve.html">Sobre a gente</a>
+        <a href="login.html">Sair</a>
+      </div>
+      
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+        <h2>Alimento</h2>
+        <p>O consumo adequado de alimentos gera beneficos como:</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugit cumque fugiat non perferendis est id harum libero quam. Ex reiciendis odit modi incidunt repellat, cupiditate hic mollitia voluptatem aspernatur?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique odio eligendi voluptatum a doloribus itaque quas quos enim, praesentium, optio doloremque voluptatem, ducimus veritatis accusamus quam dolore. Consectetur, reprehenderit itaque!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque dolor nemo dolores at minus error eius praesentium minima consequuntur, non exercitationem fuga nam? Consequuntur numquam minus minima eaque laudantium voluptatibus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fuga dolore quasi ratione autem quod id praesentium tenetur, aliquid dolorum, numquam nesciunt fugiat ipsum accusantium distinctio modi, unde possimus optio?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam distinctio totam tempore quas quia illum deleniti sint perferendis quibusdam obcaecati alias, fuga facere placeat excepturi deserunt? Hic quis optio provident?</p>
+
+</div>
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+</html> 
